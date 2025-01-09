@@ -1,6 +1,11 @@
 # DIO - Trilha .NET - API e Entity Framework
 www.dio.me
 
+## ⚠ Alerta ⚠
+
+No Vs Code usando o Dev Kit C#, após o fork do projeto principal estava dando erro quando executava o comando: `dotnet watch run`. Retornando a seguinte mensagem:
+
+
 ## Desafio de projeto
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de API e Entity Framework, da trilha .NET da DIO.
 
