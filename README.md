@@ -5,7 +5,7 @@ www.dio.me
 
 No Vs Code usando o Dev Kit C#, após o fork do projeto principal estava dando erro quando executava o comando: `dotnet watch run`. Retornando a seguinte mensagem:
 <img src="https://github.com/VictorHMSforne/trilha-net-api-desafio/blob/main/Mensagem%20de%20erro.png">
-Isso ocorre pelo fato do Vs Code entender que há duas coisas diferentes dentro do projeto em geral, após a o fork e o clone do projeto principal e a abertura no VSCode com Dev Kit C#, 
+Esse erro ocorre pelo fato do Vs Code entender que há dois projetos ou soluções dentro de uma pasta. Após o fork e o clone do projeto principal(Dio.me) e a abertura no VSCode com Dev Kit C#, 
 ele cria um arquivo .sln baseado no nome da pasta, de forma automática. A resolução do problema é simples, apenas deixar os nomes iguais e mudar um nome dentro do arquivo .sln para o mesmo nome que
 você colocou. Observe:
 O da esquerda é o que vem por padrão, o da direita é o corrigido:
